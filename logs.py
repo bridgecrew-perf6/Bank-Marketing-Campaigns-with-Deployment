@@ -9,6 +9,7 @@ name = "marketing-model"
 
 # load existing web service
 service = Webservice(name=name, workspace=ws)
+# Enabling Application Insights
 service.update(enable_app_insights=True)
 logs = service.get_logs()
 
