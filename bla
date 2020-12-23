@@ -1,1 +1,0 @@
- ab -n 10 -v 4 -p data.json -T 'application/json' -H 'Authorization: Bearer Agbasf3asdIygqpjasdfasdfVevsnPzCC' http://8asdf0dfd665-1f3-49c8-a953-b81234dsdg1g2917.eastus.azurecontainer.io/score
