@@ -45,8 +45,9 @@ We enable the Application Insights by editing the logs.py script to match the de
 ![App Insights](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/App%20insights%20enabled.PNG)  
 
 Screenshots of Logs:
-![Logs](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/logs%201.PNG) 
-![Logs](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/logs%202.PNG) 
+![Logs](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/enabling%20logs.PNG) 
+![Logs](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/logs1.PNG) 
+![Logs](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/logs2.PNG) 
 
 ### Step 4: Swagger Documentation
 In this step we setup Swagger to be able to deploy and consume the model using Swagger.
