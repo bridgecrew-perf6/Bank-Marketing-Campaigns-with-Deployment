@@ -25,8 +25,8 @@ The diagram below shows the operations done in the project from the start to fin
 
 ## Key Steps
 
-# Automated ML Experiment
-In this step, we first upload our dataset using the dataset's URL:
+### Step 1: Automated ML Experiment
+In this step, we first upload our dataset using the dataset's URI:
 ![Dataset](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/Registered%20data%20sets.PNG)  
 
 Then we use this data to create an AutoML run to determine the best model:
@@ -34,6 +34,22 @@ Then we use this data to create an AutoML run to determine the best model:
 
 After the run is complete, we're able to determine the best model which is the **Voting Ensemble** with accuracy of **0.91866**:
 ![Best Model](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/best%20model.PNG)  
+
+### Step 2: Deploy the best model
+In this step, we deply the Voting Ensemble model using Azure Container Instacne (ACI) while making sure that the Authentication option enabled.
+![Deployment](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/deploy.png)  
+
+
+### Step 3: Enable App Insights & Logging
+We enable the Application Insights by editing the logs.py script to match the deployed model ID and seyying App Inights to ***True*** then we run the python script on Powershell.
+![App Insights](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/App%20insights%20enabled.PNG)  
+
+Screenshots of Logs:
+![Logs](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/logs%201.PNG) 
+![Logs](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/logs%202.PNG) 
+
+### Step 4: Swagger Documentation
+
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 
