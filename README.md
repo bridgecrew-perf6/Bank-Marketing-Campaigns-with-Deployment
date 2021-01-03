@@ -1,8 +1,20 @@
-*NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
+# Operationalizing Machine Learning
 
+## Table of Contents
+* ### Overview
+* ### Architectural Diagram
+  * Problem Statement
+  * Solution
+* ### Key Steps
+     * Pipeline Architecture
+     * Classification Algorithm
+     * Parameter Sampler
+     * Early Stopping Policy
+* Screen Recording
+* Standout Suggestions
+* ### References
 
-# Your Project Title Here
-
+## Overview
 *TODO:* Write an overview to your project.
 
 ## Architectural Diagram
