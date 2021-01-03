@@ -41,11 +41,13 @@ In this step, we deply the Voting Ensemble model using Azure Container Instacne 
 
 
 ### Step 3: Enable App Insights & Logging
-We enable the Application Insights by editing the logs.py script to match the deployed model ID and seyying App Inights to ***True*** then we run the python script on Powershell.
+We enable the Application Insights by editing the logs.py script to match the deployed model ID and setting App Inights to ***True*** then we run the python script.
 ![App Insights](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/App%20insights%20enabled.PNG)  
 
-Screenshots of Logs:
+Running logs.py after editing it:
 ![Logs](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/enabling%20logs.PNG) 
+
+Screenshots of Logs:
 ![Logs](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/logs1.PNG) 
 ![Logs](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/logs2.PNG) 
 
