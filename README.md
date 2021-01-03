@@ -49,6 +49,19 @@ Screenshots of Logs:
 ![Logs](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/logs%202.PNG) 
 
 ### Step 4: Swagger Documentation
+In this step we setup Swagger to be able to deploy and consume the model using Swagger.
+We start by download the swagger.json file from our deployed model on Azure. Then we run swagger.sh and serve.py script on Powershell command window.
+Swagger on localhost:  
+![Swagger](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/swagger%20methods.PNG) 
+![Swagger](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/swagger%20screenshots%202.PNG) 
+![Swagger](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/instance%20interaction%202.PNG) 
+![Swagger](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/swagger%20screenshots.PNG) 
+
+### Step 5: Consume model endpoints
+Using the endpoint.py script to consume the model endpoints, we first edit the *scoring_uri* and the *key* in the script to match the key for your service and the URI that was generated after deployment, then we execute endpoint.py script.
+![Endpoint](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/endpoint.png) 
+
+### Step 6: Create and publish a pipeline
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
