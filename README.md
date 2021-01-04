@@ -60,15 +60,34 @@ In this step we setup Swagger to be able to deploy and consume the model using S
 We start by download the swagger.json file from our deployed model on Azure. Then we run swagger.sh and serve.py script on Powershell command window.
 Swagger on localhost:  
 ![Swagger](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/swagger%20methods.PNG) 
-![Swagger](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/swagger%20screenshots%202.PNG) 
-![Swagger](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/instance%20interaction%202.PNG) 
-![Swagger](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/swagger%20screenshots.PNG) 
+![Swagger](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/swagger1.PNG) 
+![Swagger](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/swagger2.PNG) 
+![Swagger](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/swagger3.png) 
 
 ### Step 5: Consume model endpoints  
 Using the endpoint.py script to consume the model endpoints, we first edit the *scoring_uri* and the *key* in the script to match the key for your service and the URI that was generated after deployment, then we execute endpoint.py script.
 ![Endpoint](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/endpoint.png) 
 
 ### Step 6: Create and publish a pipeline
+In this step, we first update our jupyter notebook variables to match our environment. 
+And finally we deploy our training pipeline and publish it. 
+
+Here we can see the Pipeline section in Azure Machine Learning studio:
+![Pipeline](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/pipeline%20section.PNG)
+
+Pipeline Endpoint:
+![Pipeline](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/pipeline%20endpoint.PNG) 
+
+Bankingmarketing dataset with AutoML module:
+![Pipeline](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/pipeline%20run.PNG) 
+
+Published Pipeline Overview:
+![Pipeline](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/active%20pipeline.PNG) 
+
+Run Details Widget:
+![Pipeline](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/run_widgets.PNG) 
+
+![Pipeline](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/pipeline%202.PNG) 
 
 ## Screen Recording
 
