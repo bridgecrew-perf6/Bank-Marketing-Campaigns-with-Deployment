@@ -85,9 +85,10 @@ Published Pipeline Overview:
 ![Pipeline](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/active%20pipeline.PNG) 
 
 Run Details Widget:
-![Pipeline](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/run_widgets.PNG) 
+![Pipeline](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/run_widgets.PNG)
 
-![Pipeline](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/pipeline%202.PNG) 
+
+![Pipeline](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/run.PNG) 
 
 ## Screen Recording
 [Screencast](https://www.youtube.com/watch?v=SZASW4ACtXY)
