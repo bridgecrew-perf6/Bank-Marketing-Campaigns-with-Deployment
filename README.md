@@ -71,7 +71,8 @@ Using the endpoint.py script to consume the model endpoints, we first edit the *
 ### Step 6: Create and publish a pipeline
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 
-## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+
+## Future Improvements
+* We can increase the Exit Criterion time from 1 hour to the default value of 3 hours to be able to find models of higher accuracy.
+* We can  enable Data drift tracking to ensure accuracy of the model.
