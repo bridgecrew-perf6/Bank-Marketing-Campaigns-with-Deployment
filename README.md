@@ -20,8 +20,12 @@ The project involves configuring, deploying and consuming the model.
 The project also includes creating, consuming and publishing an ML Pipeline.
 
 ## Architectural Diagram
-The diagram below shows the operations done in the project from the start to finish.
-*TODO*: Provide an architectual diagram of the project and give an introduction of each step. 
+The diagram below illustrates the keys steps of our operation:
+![Architecture](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/architecture%20diagram.PNG) 
+
+* We use our dataset to create an AutoML run to find the best model to fit our data. 
+* We use the model obtained and our data to train an ML pipeline.
+* We publish both the model & pipeline to endpoints to be ready for consumption. 
 
 ## Key Steps
 
