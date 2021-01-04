@@ -1,4 +1,4 @@
-# Operationalizing Machine Learning
+# Bank Marketing ML Model with Deployment
 
 ## Table of Contents
 * ### Overview
