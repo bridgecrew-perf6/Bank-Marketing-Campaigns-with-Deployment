@@ -5,7 +5,7 @@ a swagger-ui service can pick it up from localhost.
 
 Run it with Python3:
 
-    $ python3 serve.py 9000
+    $ python3 serve.py 8000
 
 The port number is optional, defaulting to 8000. Once the server is up and
 running with a swagger.json file in the same directory, then the url (assuming
@@ -35,6 +35,6 @@ if __name__ == "__main__":
         # Allows the port to be passed in as an argument
         port = sys.argv[-1]
     else:
-        port = 8000
+        port = 9000
 
     test(CORSRequestHandler, HTTPServer, port=port)
