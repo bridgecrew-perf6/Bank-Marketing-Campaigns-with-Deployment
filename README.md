@@ -1,4 +1,4 @@
-# Bank Marketing ML Model with Deployment
+# Bank Marketing Campaigns ML Pipeline
 
 ## Table of Contents
 * ### Overview
