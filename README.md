@@ -60,7 +60,7 @@ Swagger on localhost:
 ![Swagger](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/instance%20interaction%202.PNG) 
 ![Swagger](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/swagger%20screenshots.PNG) 
 
-### Step 5: Consume model endpoints
+### Step 5: Consume model endpoints  
 Using the endpoint.py script to consume the model endpoints, we first edit the *scoring_uri* and the *key* in the script to match the key for your service and the URI that was generated after deployment, then we execute endpoint.py script.
 ![Endpoint](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/endpoint.png) 
 
