@@ -94,7 +94,7 @@ Run Details Widget:
 ![Pipeline](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/run.PNG) 
 
 ## Screen Recording
-[Screencast](https://www.youtube.com/watch?v=SZASW4ACtXY)
+[Screencast](https://www.youtube.com/watch?v=Zu-03qJ4OyM&feature=youtu.be)
 
 ## Future Improvements
 * We can increase the Exit Criterion time from 1 hour to the default value of 3 hours to be able to find models of higher accuracy.
