@@ -34,7 +34,10 @@ In this step, we first upload our dataset using the dataset's URI:
 ![Dataset](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/Registered%20data%20sets.PNG)  
 
 Then we use this data to create an AutoML run to determine the best model:
-![Complete Run](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/complete%20run.PNG)  
+![Complete Run](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/complete%20run.PNG)
+
+In the Experiment section, we can see both the AutoML run and our pipeline as *completed*:  
+![Complete Run](https://github.com/dinaabdulrasoul/Bank-Marketing-Campaigns-ML-Pipeline/blob/main/screenshots/pipeline%202.PNG)
 
 After the run is complete, we're able to determine the best model which is the **Voting Ensemble** with accuracy of **0.91866**:
 ![Best Model](https://github.com/dinaabdulrasoul/Operationalizing-Machine-Learning/blob/main/screenshots/best%20model.PNG)  
